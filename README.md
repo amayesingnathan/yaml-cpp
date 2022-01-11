@@ -2,6 +2,8 @@
 
 `yaml-cpp` is a [YAML](http://www.yaml.org/) parser and emitter in C++ matching the [YAML 1.2 spec](http://www.yaml.org/spec/1.2/spec.html).
 
+This is a fork containing a premake5 file for the Labyrinth Engine.
+
 ## Usage
 
 See [Tutorial](https://github.com/jbeder/yaml-cpp/wiki/Tutorial) and [How to Emit YAML](https://github.com/jbeder/yaml-cpp/wiki/How-To-Emit-YAML) for reference. For the old API (until 0.5.0), see [How To Parse A Document](https://github.com/jbeder/yaml-cpp/wiki/How-To-Parse-A-Document-(Old-API)).
