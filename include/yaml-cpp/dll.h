@@ -8,8 +8,9 @@
 // (definition created by CMake or defined manually)
 
 #ifdef YAML_CPP_STATIC_DEFINE
-#  define YAML_CPP_API
-#  define YAML_CPP_NO_EXPORT
+    #define YAML_CPP_API
+    #define YAML_CPP_NO_EXPORT
+    #pragma message("Defining YAML_CPP_API for static library")
 #else
 #  if defined(_MSC_VER) || defined(__MINGW32__) || defined(__MINGW64__)
 #    ifndef YAML_CPP_API
