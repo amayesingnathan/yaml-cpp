@@ -7,6 +7,10 @@
 #pragma once
 #endif
 
+#ifndef YAML_CPP_STATIC_DEFINE
+    #define YAML_CPP_STATIC_DEFINE
+#endif
+
 #include "yaml-cpp/parser.h"
 #include "yaml-cpp/emitter.h"
 #include "yaml-cpp/emitterstyle.h"
