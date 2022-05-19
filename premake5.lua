@@ -32,11 +32,27 @@ project "yaml-cpp"
 		pic "On"
 		systemversion "latest"
 		cppdialect "C++17"
-
+        
 	filter "configurations:Debug"
+	runtime "Debug"
+	symbols "on"
+
+	filter "configurations:ARMd"
+		runtime "Debug"
+        symbols "on"
+
+	filter "configurations:ARM64d"
 		runtime "Debug"
 		symbols "on"
 
-	filter "configurations:Release"
+    filter "configurations:Release"
+		runtime "Release"
+        optimize "on"
+
+	filter "configurations:ARM"
+		runtime "Release"
+		optimize "on"
+
+	filter "configurations:ARM64"
 		runtime "Release"
 		optimize "on"
