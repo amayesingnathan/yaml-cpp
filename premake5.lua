@@ -26,16 +26,14 @@ project "yaml-cpp"
 
 	filter "system:windows"
 		systemversion "latest"
-		cppdialect "C++17"
 
 	filter "system:linux"
 		pic "On"
 		systemversion "latest"
-		cppdialect "C++17"
         
 	filter "configurations:Debug"
-	runtime "Debug"
-	symbols "on"
+		runtime "Debug"
+		symbols "on"
 
 	filter "configurations:ARMd"
 		runtime "Debug"
