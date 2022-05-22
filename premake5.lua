@@ -31,7 +31,7 @@ project "yaml-cpp"
 		pic "On"
 		systemversion "latest"
         
-	filter "configurations:Debug"
+	filter "configurations:x64d"
 		runtime "Debug"
 		symbols "on"
 
@@ -43,7 +43,7 @@ project "yaml-cpp"
 		runtime "Debug"
 		symbols "on"
 
-    filter "configurations:Release"
+    filter "configurations:x64"
 		runtime "Release"
         optimize "on"
 
